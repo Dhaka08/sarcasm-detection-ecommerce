@@ -28,8 +28,57 @@
 
 ---
 
-### Day 2 - [Date]
+### Day 2 - January 31, 2026 ✅
+
+**Tasks Completed:**
+- [x] Literature review - Studied sarcasm detection methodologies
+- [x] Text preprocessing pipeline built
+  - Text cleaning (URLs, mentions, special chars removed)
+  - Tokenization completed
+  - Created processed dataset
+- [x] Data statistics analyzed
+  - Word frequency analysis
+  - Comment length distribution
+- [x] Saved preprocessed data:
+  - Full dataset: preprocessed_data.csv
+  - Sample: 50k samples for quick testing
+
+**Key Insights:**
+- Successfully cleaned 1M+ comments
+- Created reusable preprocessing functions
+- Identified common words in sarcastic vs non-sarcastic text
+- Dataset ready for model training
+
+**Files Created:**
+- `notebooks/02_text_preprocessing.ipynb`
+- `data/processed/preprocessed_data.csv`
+- `data/processed/preprocessed_data_sample_50k.csv`
+
+**Time Spent:** 3.5 hours
+
+**Next Steps (Day 3):**
+- Build baseline model (Logistic Regression + TF-IDF)
+- Extract features from text
+- Train and evaluate first model
+- Set accuracy benchmark
+
+---
+
+### Day 3 - [Date]
 
 [To be filled]
 
 ---
+```
+
+3. **Save** (Ctrl + S)
+
+---
+
+### **Commit this update:**
+
+4. **Go to Source Control** (Ctrl + Shift + G)
+
+5. **Message:**
+```
+Update progress log - Day 2 complete
