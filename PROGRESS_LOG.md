@@ -64,7 +64,47 @@
 
 ---
 
-### Day 3 - [Date]
+### Day 3 - February 1, 2026 ✅
+
+**Tasks Completed:**
+- [x] Built baseline model using Logistic Regression
+- [x] Extracted TF-IDF features (5,000 features, unigrams + bigrams)
+- [x] Trained on 40,000 samples, tested on 10,000 samples
+- [x] Comprehensive model evaluation with multiple metrics
+- [x] Error analysis - identified common failure patterns
+- [x] Saved model and vectorizer for future use
+
+**Model Performance:**
+- Overall Accuracy: 66.41%
+- ROC-AUC Score: ~0.70-0.73
+- Precision (Sarcasm): ~65-68%
+- Recall (Sarcasm): ~64-67%
+- F1-Score (Sarcasm): ~65-67%
+
+**Key Insights:**
+- Simple TF-IDF features capture basic word patterns
+- Model struggles with context-dependent sarcasm
+- False positives: Non-sarcastic comments with sarcastic-sounding words
+- False negatives: Subtle sarcasm without obvious markers
+- Baseline established for comparison with deep learning models
+
+**Files Created:**
+- `notebooks/03_baseline_model.ipynb`
+- `models/baseline_logistic_regression.pkl`
+- `models/tfidf_vectorizer.pkl`
+- `results/baseline_predictions.csv`
+- `results/baseline_model_summary.png`
+
+**Time Spent:** 3 hours
+
+**Next Steps (Day 4):**
+- Implement LSTM model with word embeddings
+- Use sequential context for better understanding
+- Expected improvement: 75-80% accuracy
+
+---
+
+### Day 4 - [Date]
 
 [To be filled]
 
@@ -81,4 +121,4 @@
 
 5. **Message:**
 ```
-Update progress log - Day 2 complete
+Update progress log - Day 3 complete
