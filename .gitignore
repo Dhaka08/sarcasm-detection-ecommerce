@@ -229,3 +229,4 @@ models/*.pth
 # Results
 results/*.png
 results/*.jpg
+results/*.csv
