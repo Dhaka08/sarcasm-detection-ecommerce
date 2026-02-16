@@ -227,6 +227,4 @@ models/*.pth
 */.ipynb_checkpoints/*
 
 # Results
-results/*.png
-results/*.jpg
 results/*.csv
