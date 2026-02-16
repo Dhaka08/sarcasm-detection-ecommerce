@@ -3,7 +3,7 @@ Sarcasm detection in product reviews using deep learning with focus on Indian e-
 
 ## 👥 Team
 
-- Himanshu Dhaka - https://www.linkedin.com/in/himanshu-dhaka-6690bb359/
+- Himanshu Dhaka - https://www.linkedin.com/in/himanshudhaka5/
 - Keertan Singh - https://www.linkedin.com/in/keertansingh/
 
 **Institution:** Sharda University 
