@@ -104,21 +104,81 @@
 
 ---
 
-### Day 4 - [Date]
+### Day 4 - February 2, 2026 ✅
+
+**Tasks Completed:**
+- [x] Built LSTM model with word embeddings
+- [x] Used Google Colab with GPU for training
+- [x] Implemented Bidirectional LSTM architecture
+- [x] Trained on 40,000 samples with validation
+- [x] Comprehensive evaluation and comparison with baseline
+- [x] Created detailed visualizations
+
+**Model Architecture:**
+- Bidirectional LSTM with 2 layers
+- Embedding dimension: 128
+- LSTM units: 64
+- Dropout layers for regularization
+- Total parameters: ~1.5M
+- Hardware: GPU (T4) on Google Colab
+
+**Model Performance:**
+- Test Accuracy: [YOUR_ACCURACY]% (replace with actual)
+- Precision: [YOUR_PRECISION]%
+- Recall: [YOUR_RECALL]%
+- F1-Score: [YOUR_F1]%
+- ROC-AUC: [YOUR_AUC]
+
+**Comparison with Baseline:**
+- Baseline (Day 3): 66.41%
+- LSTM (Day 4): [YOUR_ACCURACY]%
+- Improvement: +[DIFFERENCE]%
+
+**Key Insights:**
+- LSTM captures sequential context much better than bag-of-words
+- Bidirectional processing helps understand forward & backward patterns
+- Word order matters for sarcasm detection
+- GPU training reduced time from hours to ~10 minutes
+- Still room for improvement with BERT/transformers
+
+**Files Created:**
+- `notebooks/04_lstm_model.ipynb` (Colab)
+- `results/lstm_training_history.json`
+- `results/lstm_vs_baseline_comparison.png`
+
+**Time Spent:** 4 hours
+
+**Next Steps (Day 5):**
+- Week 1 wrap-up and reflection
+- Plan Week 2 activities
+- Prepare for BERT fine-tuning
+- Optional: Test with full 1M dataset
+
+---
+
+### Day 5 - [Date]
 
 [To be filled]
 
 ---
 ```
 
-3. **Save** (Ctrl + S)
+3. **Replace the placeholders** with your actual numbers:
+   - `[YOUR_ACCURACY]` - your LSTM accuracy
+   - `[YOUR_PRECISION]` - your precision
+   - `[YOUR_RECALL]` - your recall
+   - `[YOUR_F1]` - your F1 score
+   - `[YOUR_AUC]` - your ROC-AUC
+   - `[DIFFERENCE]` - improvement over 66.41%
+
+4. **Save** (Ctrl + S)
 
 ---
 
 ### **Commit this update:**
 
-4. **Go to Source Control** (Ctrl + Shift + G)
+5. **Go to Source Control** (Ctrl + Shift + G)
 
-5. **Message:**
+6. **Message:**
 ```
-Update progress log - Day 3 complete
+Update progress log - Day 4 complete
