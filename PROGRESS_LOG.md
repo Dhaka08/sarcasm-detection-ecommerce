@@ -156,29 +156,79 @@
 
 ---
 
-### Day 5 - [Date]
+### Day 5 - February 3, 2026 ✅
+
+**Tasks Completed:**
+- [x] Fine-tuned BERT for sarcasm detection
+- [x] Used Google Colab with T4 GPU
+- [x] Trained for 3 epochs with AdamW optimizer
+- [x] Comprehensive evaluation and comparison
+- [x] Created detailed visualizations
+
+**Model Architecture:**
+- Base model: BERT-base-uncased
+- Parameters: ~110 million
+- Fine-tuned epochs: 3
+- Max sequence length: 64
+- Batch size: 32
+- Learning rate: 2e-5
+
+**Model Performance:**
+- Test Accuracy: 73.48%
+- Precision: ~74%
+- Recall: ~74%
+- F1-Score: 74.15%
+- ROC-AUC: 0.817
+
+**All Models Comparison:**
+| Model | Accuracy | AUC |
+|-------|----------|-----|
+| Logistic Regression | 66.41% | 0.71 |
+| Bidirectional LSTM | ~72-78% | 0.79 |
+| BERT (fine-tuned) | 73.48% | 0.817 |
+
+**Key Insights:**
+- BERT achieves best AUC (0.817) showing superior discrimination
+- Pre-trained knowledge helps understand subtle sarcasm
+- 110M parameters captures complex language patterns
+- ROC-AUC more important than raw accuracy for imbalanced tasks
+
+**Files Created:**
+- `notebooks/05_bert_finetuning.ipynb`
+- `results/bert_results.png`
+- `results/bert_training_stats.json`
+
+**Time Spent:** 4 hours
+
+**Next Steps (Week 2):**
+- Collect Indian e-commerce reviews
+- Test models on Hinglish data
+- Build Streamlit demo application
+- Start research paper outline
+
+---
+
+### Day 6 - [Date]
 
 [To be filled]
 
 ---
 ```
 
-3. **Replace the placeholders** with your actual numbers:
-   - `[YOUR_ACCURACY]` - your LSTM accuracy
-   - `[YOUR_PRECISION]` - your precision
-   - `[YOUR_RECALL]` - your recall
-   - `[YOUR_F1]` - your F1 score
-   - `[YOUR_AUC]` - your ROC-AUC
-   - `[DIFFERENCE]` - improvement over 66.41%
-
-4. **Save** (Ctrl + S)
+**Save** (Ctrl + S)
 
 ---
 
-### **Commit this update:**
+## 🎯 **Step 4: Commit Everything to GitHub**
 
-5. **Go to Source Control** (Ctrl + Shift + G)
+1. **Go to Source Control** (Ctrl + Shift + G)
 
-6. **Message:**
+2. **You should see:**
+   - `notebooks/05_bert_finetuning.ipynb` ✅
+   - `results/bert_results.png` ✅
+   - `results/bert_training_stats.json` ✅
+   - `PROGRESS_LOG.md` ✅
+
+3. **Commit message:**
 ```
-Update progress log - Day 4 complete
+Day 5: BERT fine-tuning complete - 73.48% accuracy, AUC 0.817
