@@ -262,24 +262,3 @@
 ### Day 7 - [Date]
 
 [To be filled]
-
----
-```
-
-**Save** (Ctrl + S)
-
----
-
-## 🎯 **Step 4: Commit to GitHub**
-
-1. **Go to Source Control** (Ctrl + Shift + G)
-
-2. **You should see:**
-   - `notebooks/06_indian_reviews_analysis.ipynb` ✅
-   - `results/` PNG files ✅
-   - `results/indian_reviews_findings.json` ✅
-   - `PROGRESS_LOG.md` ✅
-
-3. **Commit message:**
-```
-Day 6: Indian reviews analysis - 83.33% accuracy on Indian data
