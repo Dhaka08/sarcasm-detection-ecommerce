@@ -208,7 +208,58 @@
 
 ---
 
-### Day 6 - [Date]
+### Day 6 - February 4, 2026 ✅
+
+**Tasks Completed:**
+- [x] Created 150 Indian e-commerce reviews dataset
+- [x] Annotated reviews with 5 sarcasm types
+- [x] Analyzed Hinglish sarcasm patterns
+- [x] Tested BERT model on Indian reviews
+- [x] Generated comprehensive visualizations
+- [x] Extracted research paper insights
+
+**Dataset Created:**
+- Total reviews: 150
+- Sarcastic: 80 (53.3%)
+- Non-sarcastic: 70 (46.7%)
+- Hinglish reviews: 20+
+- Platforms: Amazon India + Flipkart
+- Categories: Electronics, Clothing, Food, Home Appliances
+
+**BERT Performance on Indian Reviews:**
+- Accuracy: 83.33%
+- Precision: ~83%
+- Recall: ~83%
+- F1-Score: ~83%
+- ROC-AUC: ~0.90
+
+**Key Research Findings:**
+1. BERT achieves 83.33% on Indian reviews vs 73.48% on Reddit
+2. Indian reviews contain more explicit sarcasm markers
+3. Hinglish sarcasm well-handled by multilingual BERT
+4. Electronics category has most sarcasm
+5. Star-rating contradiction is strong sarcasm indicator
+
+**Files Created:**
+- `notebooks/06_indian_reviews_analysis.ipynb`
+- `results/indian_reviews_overview.png`
+- `results/sarcasm_types.png`
+- `results/hinglish_analysis.png`
+- `results/indian_reviews_results.png`
+- `results/confidence_analysis.png`
+- `results/indian_reviews_findings.json`
+- `data/indian_reviews/indian_reviews_predictions.csv`
+
+**Time Spent:** 4 hours
+
+**Next Steps (Day 7):**
+- Build Streamlit demo application
+- Create web interface for sarcasm detection
+- Deploy demo online
+
+---
+
+### Day 7 - [Date]
 
 [To be filled]
 
@@ -219,16 +270,16 @@
 
 ---
 
-## 🎯 **Step 4: Commit Everything to GitHub**
+## 🎯 **Step 4: Commit to GitHub**
 
 1. **Go to Source Control** (Ctrl + Shift + G)
 
 2. **You should see:**
-   - `notebooks/05_bert_finetuning.ipynb` ✅
-   - `results/bert_results.png` ✅
-   - `results/bert_training_stats.json` ✅
+   - `notebooks/06_indian_reviews_analysis.ipynb` ✅
+   - `results/` PNG files ✅
+   - `results/indian_reviews_findings.json` ✅
    - `PROGRESS_LOG.md` ✅
 
 3. **Commit message:**
 ```
-Day 5: BERT fine-tuning complete - 73.48% accuracy, AUC 0.817
+Day 6: Indian reviews analysis - 83.33% accuracy on Indian data
