@@ -255,20 +255,6 @@ Real-time analysis with confidence scores and explanations.
 
 ---
 
-#### ✅ Genuine Review Detection
-Identifying non-sarcastic, genuine reviews.
-
-![Genuine Review](results/demo_screenshots/genuine_review.png)
-
----
-
-#### 📝 Example Reviews Section
-Pre-loaded examples for quick testing.
-
-![Examples](results/demo_screenshots/examples.png)
-
----
-
 #### 📊 Batch Analysis Interface
 Upload CSV files for bulk processing.
 
