@@ -241,10 +241,45 @@ streamlit run app.py
 
 ### Demo Application
 
+#### 🏠 Homepage
+Clean and intuitive interface for sarcasm detection.
+
 ![Homepage](results/demo_screenshots/homepage.png)
+
+---
+
+#### 🎭 Sarcasm Detection Result
+Real-time analysis with confidence scores and explanations.
+
 ![Sarcasm Detection](results/demo_screenshots/sarcasm_detected.png)
+
+---
+
+#### ✅ Genuine Review Detection
+Identifying non-sarcastic, genuine reviews.
+
+![Genuine Review](results/demo_screenshots/genuine_review.png)
+
+---
+
+#### 📝 Example Reviews Section
+Pre-loaded examples for quick testing.
+
+![Examples](results/demo_screenshots/examples.png)
+
+---
+
+#### 📊 Batch Analysis Interface
+Upload CSV files for bulk processing.
+
 ![Batch Analysis](results/demo_screenshots/batch_analysis.png)
-![Batch Analysis Result](results/demo_screenshots/batch_analysis_result.png)
+
+---
+
+#### 📥 Batch Analysis Results
+Complete analysis with downloadable results.
+
+![Batch Results](results/demo_screenshots/batch_results.png)
 
 ---
 
